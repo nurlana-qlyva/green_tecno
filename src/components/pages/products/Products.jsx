@@ -5,18 +5,11 @@ import { useSelector } from 'react-redux'
 
 export default function Products() {
 
-    const selectedCategory = useSelector(state => state.product.selectedCategory)
-    const selectedBrand = useSelector(state => state.product.selectedBrand)
-    const selectedSortingOption = useSelector(state => state.product.selectedSortingOption)
-    const selectedPrice = useSelector(state => state.product.selectedPrice)
+    const {selectedCategory,selectedBrand,selectedSortingOption,selectedPrice} = useSelector(state => state.product)
 
     const getFilteredData = () => {
-        if (selectedCategory !== '' && selectedBrand !== '') {
-            return data.products?.filter(product => product?.category_id === selectedCategory && product?.brand_id === selectedBrand)
-        } else if (selectedCategory === '' && selectedBrand !== '') {
-            return data.products?.filter(product => product?.brand_id === selectedBrand)
-        } else if (selectedCategory !== '' && selectedBrand === '') {
-            return data.products?.filter(product => product?.category_id === selectedCategory)
+        if (selectedCategory !== '' || selectedBrand !== '') {
+            return data.products?.filter(product => product?.category_id === selectedCategory || product?.brand_id === selectedBrand)
         } else {
             return data.products
         }

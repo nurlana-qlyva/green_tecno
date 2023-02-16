@@ -1,14 +1,11 @@
 import data from './data.json'
 import { useSelector, useDispatch } from 'react-redux'
-import { setSelectedCategory, setSelectedBrand, setSelectedPrice } from './../../../features/filter'
+import { setSelectedCategory, setSelectedBrand } from './../../../features/filter'
 import SliderRangeComp from './SliderRangeComp'
 
 export default function FilterCategory() {
   const selectedCategory = useSelector(state => state.product.selectedCategory)
   const dispatch = useDispatch()
-
-  const selectedPrice = useSelector(state => state.product.selectedPrice)
-   console.log(selectedPrice)
 
   return (
     <aside className='sidebar'>

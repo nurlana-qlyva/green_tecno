@@ -8,6 +8,7 @@ export default function SearchForm() {
     const searchValue = useRef()
 
     const searchItem = useCallback(() => {
+        console.log('yes')
         setValue(searchValue.current.value)
         setShowed(true)
     }, [])

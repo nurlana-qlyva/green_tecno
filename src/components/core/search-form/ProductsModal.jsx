@@ -1,9 +1,8 @@
 import data from './data.json'
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function ProductsModal({ value, onClickOutside, show }) {
-    const ref = useRef(null);
 
     useEffect(() => {
         const handleClickOutside = (e) => {
@@ -27,7 +26,7 @@ export default function ProductsModal({ value, onClickOutside, show }) {
             <div className="search-result" id='search-modal'>
                 <ul>
                     {(data.products.filter(product => {
-                        if (value == '') {
+                        if (value === '') {
                             return product;
                         } else if (product.product.toLowerCase().includes(value.toLowerCase())) {
                             return product;
