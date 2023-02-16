@@ -1,0 +1,137 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Smartfonlar"
+        },
+        {
+            "id": 2,
+            "name": "Smart saatlar"
+        },
+        {
+            "id": 3,
+            "name": "Aksesuarlar"
+        },
+        {
+            "id": 4,
+            "name": "Planşetlər"
+        },
+        {
+            "id": 5,
+            "name": "Qulaqlıqlar"
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "Apple"
+        },
+        {
+            "id": 2,
+            "name": "Samsung"
+        },
+        {
+            "id": 3,
+            "name": "Xiaomi"
+        },
+        {
+            "id": 4,
+            "name": "Honor"
+        },
+        {
+            "id": 5,
+            "name": "Oppo"
+        }
+    ],
+    "options": [
+        {
+            "name": "Ada görə (A-Z)",
+            "key": "by-name",
+            "id": 1
+        },
+        {
+            "name":  "Əvvəlcə ucuz",
+            "key": "cheap",
+            "id": 2
+        },
+        {
+            "name": "Əvvəlcə baha",
+            "key": "expensive",
+            "id": 3
+        }
+    ],
+    "products": [
+        {
+            "name": "iPhone Wireless Headphone",
+            "category_id": 5,
+            "brand_id": 1,
+            "price": 15.99,
+            "discount": null,
+            "image": "/media/wireless.png",
+            "id": 1
+        },
+        {
+            "name": "Samsung Wireless Headphone",
+            "category_id": 5,
+            "brand_id": 2,
+            "price": 50.99,
+            "discount": null,
+            "image": "/media/wireless.png",
+            "id": 2
+        },
+        {
+            "name": "Headphone R1342JBL LIVE 650BTNC Wireless",
+            "category_id": 5,
+            "brand_id": 3,
+            "price": 42.99,
+            "discount": null,
+            "image": "/media/airmax.png",
+            "id": 3
+        },
+        {
+            "name": "iPhone 12 Pro Max 256GB Pacific Blue",
+            "category_id": 1,
+            "brand_id": 1,
+            "price": 400.99,
+            "discount": 600.00,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 4
+        },
+        {
+            "name": "Samsung S22 Ultra",
+            "category_id": 1,
+            "brand_id": 2,
+            "price": 300.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 5
+        },
+        {
+            "name": "Xiaomi 12 lite",
+            "category_id": 1,
+            "brand_id": 3,
+            "price": 255.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 6
+        },
+        {
+            "name": "Honor X9a",
+            "category_id": 1,
+            "brand_id": 4,
+            "price": 157.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 7
+        },
+        {
+            "name": "Oppo Find",
+            "category_id": 1,
+            "brand_id": 5,
+            "price": 435.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 8
+        }
+    ]
+}

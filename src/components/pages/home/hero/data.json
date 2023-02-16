@@ -1,0 +1,16 @@
+{
+    "banners": [
+        {
+            "image": "/media/airpod.png",
+            "id": "1"
+        },
+        {
+            "image": "/media/samsung.png",
+            "id": "2"
+        },
+        {
+            "image": "/media/iphone.png",
+            "id": "3"
+        }
+    ]
+}

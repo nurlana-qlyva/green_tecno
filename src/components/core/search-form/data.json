@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "product": "iPhone Wireless Headphone",
+            "price": "$130.99",
+            "image": "/media/wireless.png",
+            "id": "1"
+        },
+        {
+            "product": "Android Wireless Headphone",
+            "price": "$100.99",
+            "image": "/media/wireless.png",
+            "id": "2"
+        },
+        {
+            "product": "Headphone",
+            "price": "$140.99",
+            "image": "/media/wireless.png",
+            "id": "3"
+        }
+    ]
+}

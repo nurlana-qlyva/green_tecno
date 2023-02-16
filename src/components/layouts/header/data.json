@@ -1,0 +1,18 @@
+{
+    "green_logo": "Green",
+    "tecno_logo": "Tecno",
+    "menus": [
+        {
+            "name": "Ana səhifə",
+            "path": "/"
+        },
+        {
+            "name": "Məhsullar",
+            "path": "/məhsullar"
+        },
+        {
+            "name": "Endirimlər",
+            "path": "/endirimlər"
+        }
+    ]
+}
