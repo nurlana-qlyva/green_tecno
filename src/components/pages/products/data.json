@@ -80,9 +80,27 @@
             "id": 2
         },
         {
-            "name": "Headphone R1342JBL LIVE 650BTNC Wireless",
+            "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
             "category_id": 5,
             "brand_id": 3,
+            "price": 42.99,
+            "discount": null,
+            "image": "/media/airmax.png",
+            "id": 3
+        },
+        {
+            "name": "Honor Headphone R1342JBL LIVE 650BTNC Wireless",
+            "category_id": 5,
+            "brand_id": 4,
+            "price": 42.99,
+            "discount": null,
+            "image": "/media/airmax.png",
+            "id": 3
+        },
+        {
+            "name": "Oppo Headphone R1342JBL LIVE 650BTNC Wireless",
+            "category_id": 5,
+            "brand_id": 5,
             "price": 42.99,
             "discount": null,
             "image": "/media/airmax.png",
@@ -132,6 +150,87 @@
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 8
+        },
+        {
+            "name": "iPhone Wireless Headphone",
+            "category_id": 5,
+            "brand_id": 1,
+            "price": 75.99,
+            "discount": null,
+            "image": "/media/wireless.png",
+            "id": 9
+        },
+        {
+            "name": "Samsung Wireless Headphone",
+            "category_id": 5,
+            "brand_id": 2,
+            "price": 112.99,
+            "discount": null,
+            "image": "/media/wireless.png",
+            "id": 10
+        },
+        {
+            "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
+            "category_id": 5,
+            "brand_id": 3,
+            "price": 345.99,
+            "discount": null,
+            "image": "/media/airmax.png",
+            "id": 11
+        },
+        {
+            "name": "iWatch",
+            "category_id": 2,
+            "brand_id": 1,
+            "price": 225.99,
+            "discount": 600.00,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 12
+        },
+        {
+            "name": "Samsung Smart Watch",
+            "category_id": 2,
+            "brand_id": 2,
+            "price": 225.99,
+            "discount": 600.00,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 12
+        },
+        {
+            "name": "Samsung Aksessuar",
+            "category_id": 3,
+            "brand_id": 2,
+            "price": 189.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 13
+        },
+        {
+            "name": "Xiaomi Planset",
+            "category_id": 4,
+            "brand_id": 3,
+            "price": 270.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 14
+        },
+        {
+            "name": "Honor Aksessuar",
+            "category_id": 3,
+            "brand_id": 4,
+            "price": 365.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 15
+        },
+        {
+            "name": "Oppo Find",
+            "category_id": 4,
+            "brand_id": 5,
+            "price": 489.99,
+            "discount": null,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 16
         }
     ]
 }
