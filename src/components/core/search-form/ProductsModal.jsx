@@ -1,4 +1,4 @@
-import data from './data.json'
+import data from './../../pages/products/data.json'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -28,7 +28,7 @@ export default function ProductsModal({ value, onClickOutside, show }) {
                     {(data.products.filter(product => {
                         if (value === '') {
                             return product;
-                        } else if (product.product.toLowerCase().includes(value.toLowerCase())) {
+                        } else if (product.name.toLowerCase().includes(value.toLowerCase())) {
                             return product;
                         }
                     })).map(product => {
@@ -38,7 +38,7 @@ export default function ProductsModal({ value, onClickOutside, show }) {
                                     <img src={product.image} alt="greentecno" />
                                 </div>
                                 <div>
-                                    <h4>{product.product}</h4>
+                                    <h4>{product.name}</h4>
                                     <p>{product.price}</p>
                                 </div>
                             </Link>
