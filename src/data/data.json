@@ -60,6 +60,32 @@
             "id": 3
         }
     ],
+    "credit_month": [
+        {
+            "id": 1,
+            "amount": 6
+        },
+        {
+            "id": 2,
+            "amount": 9
+        },
+        {
+            "id": 3,
+            "amount": 12
+        },
+        {
+            "id": 4,
+            "amount": 15
+        },
+        {
+            "id": 5,
+            "amount": 18
+        },
+        {
+            "id": 6,
+            "amount": 24
+        }
+    ],
     "products": [
         {
             "name": "iPhone 12 Pro Max 256GB Pacific Blue",
@@ -306,10 +332,182 @@
             "discount": 600.00,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 6,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Samsung S22 Ultra",
@@ -319,10 +517,182 @@
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 7,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Xiaomi 12 lite",
@@ -332,10 +702,182 @@
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 8,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Honor X9a",
@@ -345,10 +887,182 @@
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 9,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Oppo Find",
@@ -358,10 +1072,182 @@
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 10,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "iPhone Wireless Headphone",
@@ -474,10 +1360,182 @@
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
             "id": 19,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.8"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "Qualcomm"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

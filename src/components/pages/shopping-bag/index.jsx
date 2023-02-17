@@ -6,14 +6,6 @@ export default function ShoppingBagPage() {
   return (
     <div>
       <table>
-        <thead>
-          <tr>
-            <td>Image</td>
-            <td>Name</td>
-            <td></td>
-            <td>Price</td>
-          </tr>
-        </thead>
         <tbody>
           {console.log(selectedProductData)}
           {selectedProductData.cart_product?.map(product => {
@@ -23,7 +15,11 @@ export default function ShoppingBagPage() {
                   <img src={product.product_image} alt="" />
                 </td>
                 <td>{product.product_name}</td>
-                <td></td>
+                <td>
+                  <button>-</button>
+                  <span>1</span>
+                  <button>+</button>
+                </td>
                 <td>{product.product_price}</td>
               </tr>
             )

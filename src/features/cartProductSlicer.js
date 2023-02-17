@@ -9,7 +9,7 @@ const cartProductSlice = createSlice({
             reducer (state, {payload}) {
                 state.unshift(payload)
             },
-            prepare (product_image, product_name, product_brand, product_price, product_color, product_memory) {
+            prepare (product_image, product_name, product_brand, product_price, product_color, product_memory, count) {
                 return {
                     payload: {
                         id: nanoid(),
@@ -18,7 +18,8 @@ const cartProductSlice = createSlice({
                         product_brand,
                         product_price,
                         product_color,
-                        product_memory
+                        product_memory,
+                        count
                     }
                 }
             }

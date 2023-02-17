@@ -6,17 +6,17 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useState, useCallback } from 'react';
-import { setSelectedProducts } from '../../../features/cartProductSlicer';
+import { setSelectedProducts } from '../../../features/cartProductSlicer'
+import CreaditModal from '../../core/credit-modal'
 
 export default function ProductDetail() {
     const { productId } = useParams()
     const [memoryVal, setMemoryVal] = useState(1)
     const [colorVal, setColorVal] = useState('')
+    const [isShow, setIsShow] = useState(false)
 
-    const selectedProductData = useSelector(state => state)
-    
     const dispatch = useDispatch()
 
     const getProductDetail = data.products.find(product => Number(productId) === product.id)
@@ -35,6 +35,11 @@ export default function ProductDetail() {
 
     const sendProductsIntoBag = () => {
         dispatch(setSelectedProducts(image, name, null, price, colorVal, memoryVal))
+    }
+
+    const setIsShowModal = () => {
+        // dispatch(setSelectedProducts(image, name, null, price, colorVal, memoryVal))
+        setIsShow(!isShow)
     }
 
     return (
@@ -106,15 +111,18 @@ export default function ProductDetail() {
                                     </li>
                                 })}
                             </ul>
+                            <p>Color: {colorVal}</p>
                         </div>
 
                         <div className="buttons flex gap-2">
                             <button onClick={sendProductsIntoBag}>Səbətə əlavə et</button>
-                            <button>Hissə-hissə ödəniş</button>
+                            <button onClick={setIsShowModal}>Hissə-hissə ödəniş</button>
                             <button><HeartIcon /></button>
                         </div>
                     </div>
                 </div>
+
+                {isShow ? <CreaditModal image={image} name={name} price={price} /> : null}
             </div>
         </section>
     )

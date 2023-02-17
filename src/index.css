@@ -430,8 +430,6 @@
     margin-right: 10px;
 }
 
-
-
 .product-detail .product-info .product-storage button{
     padding: 3px 8px;
     border: 1px solid var(--grey-70);
@@ -493,4 +491,47 @@
 
 .product-image-slider .swiper-pagination-bullets .swiper-pagination-bullet-active {
     border: 1px solid var(--secondary-color);
+}
+
+.credit-modal {
+    background-color: var(--white-color);
+    padding: 40px 90px;
+    width: 60%;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+}
+
+.credit-modal table,
+.credit-modal table td img {
+    width: 100%;
+}
+
+.credit-modal table td img {
+    height: 100px;
+}
+
+.credit-modal .month li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: var(--grey-70);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.credit-modal .month .active {
+    background-color: var(--primary-color);
+}
+
+.credit-modal .result {
+    text-align: center;
+}
+
+.credit-modal .result li {
+    display: inline-block;
+    margin: 0 10px;
 }
