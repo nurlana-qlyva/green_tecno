@@ -62,13 +62,13 @@
     ],
     "products": [
         {
-            "id": 1,
-            "name": "iPhone Wireless Headphone",
-            "category_id": 5,
+            "name": "iPhone 12 Pro Max 256GB Pacific Blue",
+            "category_id": 1,
             "brand_id": 1,
-            "price": 15.99,
-            "discount": null,
-            "image": "/media/wireless.svg",
+            "price": 400.99,
+            "discount": 600.00,
+            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "id": 1,
             "colors": [
                 {
                     "id": 1,
@@ -99,28 +99,150 @@
                 {
                     "id": 3,
                     "storage": "128 GB"
+                },
+                {
+                    "id": 4,
+                    "storage": "256 GB"
                 }
             ],
             "image_slider": [
                 {
                     "id": 1,
-                    "image": "/media/wireless.svg"
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
                 },
                 {
                     "id": 2,
-                    "image": "/media/wireless.svg"
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
                 },
                 {
                     "id": 3,
-                    "image": "/media/wireless.svg"
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
                 },
                 {
                     "id": 4,
-                    "image": "/media/wireless.svg"
+                    "image": "/media/iphone-12-pro-max-blue-hero.png"
                 },
                 {
                     "id": 5,
                     "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "storage_id": 1,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "32 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 2,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "64 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 4,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "256 GB"
+                        }
+                    ]
+                },
+                {
+                    "storage_id": 3,
+                    "product_speacilities": [
+                        {
+                            "key": "Ekran ölçüsü",
+                            "value": "6.5"
+                        },
+                        {
+                            "key": "Əməliyyat sistemi",
+                            "value": "IOS 3"
+                        },
+                        {
+                            "key": "Operativ yaddaş (Ram)",
+                            "value": "8 GB"
+                        },
+                        {
+                            "key": "Əsas Kamera (MP)",
+                            "value": "64 + 12 + 12 +5"
+                        },
+                        {
+                            "key": "Akkumulyatorun həcmi (mAh)",
+                            "value": "4500"
+                        },
+                        {
+                            "key": "Daxili yaddaş",
+                            "value": "128 GB"
+                        }
+                    ]
                 }
             ]
         },
@@ -131,7 +253,11 @@
             "price": 50.99,
             "discount": null,
             "image": "/media/wireless.svg",
-            "id": 2
+            "id": 2,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -140,7 +266,11 @@
             "price": 42.99,
             "discount": null,
             "image": "/media/airmax.svg",
-            "id": 3
+            "id": 3,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Honor Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -149,7 +279,11 @@
             "price": 42.99,
             "discount": null,
             "image": "/media/airmax.svg",
-            "id": 4
+            "id": 4,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Oppo Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -158,16 +292,24 @@
             "price": 42.99,
             "discount": null,
             "image": "/media/airmax.svg",
-            "id": 5
+            "id": 5,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
-            "name": "iPhone 12 Pro Max 256GB Pacific Blue",
+            "name": "iPhone 12 Pro Max 128GB Pacific Blue",
             "category_id": 1,
             "brand_id": 1,
-            "price": 400.99,
+            "price": 350.99,
             "discount": 600.00,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 6
+            "id": 6,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Samsung S22 Ultra",
@@ -176,7 +318,11 @@
             "price": 300.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 7
+            "id": 7,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Xiaomi 12 lite",
@@ -185,7 +331,11 @@
             "price": 255.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 8
+            "id": 8,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Honor X9a",
@@ -194,7 +344,11 @@
             "price": 157.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 9
+            "id": 9,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Oppo Find",
@@ -203,7 +357,11 @@
             "price": 435.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 10
+            "id": 10,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "iPhone Wireless Headphone",
@@ -212,7 +370,11 @@
             "price": 75.99,
             "discount": null,
             "image": "/media/wireless.svg",
-            "id": 11
+            "id": 11,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Samsung Wireless Headphone",
@@ -221,7 +383,11 @@
             "price": 112.99,
             "discount": null,
             "image": "/media/wireless.svg",
-            "id": 12
+            "id": 12,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -230,7 +396,11 @@
             "price": 345.99,
             "discount": null,
             "image": "/media/airmax.svg",
-            "id": 13
+            "id": 13,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "iWatch",
@@ -239,7 +409,10 @@
             "price": 375.99,
             "discount": 600.00,
             "image": "/media/smart_watch.svg",
-            "id": 14
+            "id": 14,
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Samsung Smart Watch",
@@ -248,7 +421,11 @@
             "price": 225.99,
             "discount": 600.00,
             "image": "/media/smart_watch.svg",
-            "id": 15
+            "id": 15,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Samsung Aksessuar",
@@ -257,7 +434,11 @@
             "price": 189.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 16
+            "id": 16,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Xiaomi Planset",
@@ -266,7 +447,11 @@
             "price": 270.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 17
+            "id": 17,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Honor Aksessuar",
@@ -275,7 +460,11 @@
             "price": 365.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 18
+            "id": 18,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         },
         {
             "name": "Oppo Find",
@@ -284,7 +473,11 @@
             "price": 489.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 19
+            "id": 19,
+            "colors": [],
+            "staorages": [],
+            "image_slider": [],
+            "speacilities": []
         }
     ]
 }

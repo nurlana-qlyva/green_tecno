@@ -29,7 +29,7 @@ export default function TopHeader() {
                                 </Link>
                             </li>
                             <li className='inline-block'>
-                                <Link to={''}>
+                                <Link to={'/səbət'}>
                                     <ShoppingBasketİcon />
                                 </Link>
                             </li>

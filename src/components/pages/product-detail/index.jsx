@@ -1,15 +1,41 @@
 import { useParams } from 'react-router'
 import data from './../../../data/data.json'
+import { HeartIcon } from '../../../icons'
 import { Scrollbar, Autoplay, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
+import { useDispatch, useSelector } from 'react-redux';
+import { useState, useCallback } from 'react';
+import { setSelectedProducts } from '../../../features/cartProductSlicer';
 
 export default function ProductDetail() {
     const { productId } = useParams()
+    const [memoryVal, setMemoryVal] = useState(1)
+    const [colorVal, setColorVal] = useState('')
+
+    const selectedProductData = useSelector(state => state)
+    
+    const dispatch = useDispatch()
 
     const getProductDetail = data.products.find(product => Number(productId) === product.id)
+
+    const getProductMemoryValue = useCallback((e) => {
+        setMemoryVal(e.target.value)
+    })
+
+    const getProductColorValue = useCallback((e) => {
+        setColorVal(e.target.value)
+    })
+
+    const getFilteredDataForMemory = getProductDetail.speacilities?.find(product => product?.storage_id === Number(memoryVal))
+
+    const {name, image, price} = getProductDetail
+
+    const sendProductsIntoBag = () => {
+        dispatch(setSelectedProducts(image, name, null, price, colorVal, memoryVal))
+    }
 
     return (
         <section className="product-detail">
@@ -20,14 +46,21 @@ export default function ProductDetail() {
                             modules={[Navigation, Scrollbar, Pagination]}
                             slidesPerView={1}
                             navigation
-                            pagination={{ clickable: true }}
+                            pagination={{
+                                clickable: true,
+                                renderBullet: function (index, className) {
+                                    return `<span class='${className}'>
+                                            <img src='${getProductDetail?.image_slider[index]?.image}'/>
+                                    </span>`
+                                }
+                            }}
                         >
-                            {getProductDetail.image_slider?.map(({ id, image }) => {
+                            {getProductDetail?.image_slider?.map(({ id, image }) => {
                                 return <SwiperSlide key={id}>
                                     <div className="product-image">
                                         <img src={image} alt="greentecno" />
                                     </div>
-                                    
+
                                 </SwiperSlide>
                             })}
                         </Swiper>
@@ -44,7 +77,7 @@ export default function ProductDetail() {
                                 <div>
                                     {getProductDetail.colors?.map(({ id, color }) => {
                                         return (
-                                            <input key={id} type="radio" name="color" style={{ background: color }} />
+                                            <input key={id} type="radio" name="color" style={{ background: color }} value={id} onChange={getProductColorValue}/>
                                         )
                                     })}
                                 </div>
@@ -54,11 +87,31 @@ export default function ProductDetail() {
                                 <div>
                                     {getProductDetail.storages?.map(({ id, storage }) => {
                                         return (
-                                            <button key={id}>{storage}</button>
+                                            <button key={id} value={id} onClick={getProductMemoryValue}>{storage}</button>
                                         )
                                     })}
                                 </div>
                             </div>
+                        </div>
+                        <div>
+                            <ul>
+                                {getFilteredDataForMemory?.product_speacilities?.map((product, index) => {
+                                    return <li key={index} className='grid grid-cols-2'>
+                                        <span>
+                                            {product.key}:
+                                        </span>
+                                        <span>
+                                            {product.value}
+                                        </span>
+                                    </li>
+                                })}
+                            </ul>
+                        </div>
+
+                        <div className="buttons flex gap-2">
+                            <button onClick={sendProductsIntoBag}>Səbətə əlavə et</button>
+                            <button>Hissə-hissə ödəniş</button>
+                            <button><HeartIcon /></button>
                         </div>
                     </div>
                 </div>
