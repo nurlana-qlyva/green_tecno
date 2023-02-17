@@ -1,10 +1,11 @@
-import { useEffect } from 'react'
-import data from './data.json'
+import data from './../../../data/data.json'
 import FilterPrice from './FilterPrice'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 export default function Products() {
+    const {productId} = useParams()
 
     const { selectedCategory, selectedBrand, selectedSortingOption, selectedPrice } = useSelector(state => state.product)
 
@@ -34,17 +35,12 @@ export default function Products() {
         }
     }
 
-    useEffect(() => {
-        // console.log(selectedPrice)
-        // console.log(getFilteredData())
-    }, [selectedCategory, selectedBrand, selectedSortingOption, selectedPrice])
-
     return (
         <div className='right-side'>
             <FilterPrice count={getSortedData().length} />
             <div className='grid grid-cols-3 product'>
                 {getSortedData().map(product => {
-                    return <Link to={''}>
+                    return <Link key={product.id} to={`/məhsullar/${product.id}`}>
                         <div className="card" key={product.id}>
                             <div className="card-img">
                                 <img src={product.image} alt="" />

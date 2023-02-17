@@ -1,4 +1,4 @@
-import data from './../../pages/products/data.json'
+import data from './../../../data/data.json'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -33,7 +33,7 @@ export default function ProductsModal({ value, onClickOutside, show }) {
                         }
                     })).map(product => {
                         return <li key={product.id}>
-                            <Link className='flex items-center' to={''}>
+                            <Link className='flex items-center' to={`/məhsullar/${product.id}`}>
                                 <div>
                                     <img src={product.image} alt="greentecno" />
                                 </div>

@@ -1,4 +1,4 @@
-import data from './data.json'
+import data from './../../../data/data.json'
 import { useSelector, useDispatch } from 'react-redux'
 import { setSelectedCategory, setSelectedBrand } from './../../../features/filter'
 import SliderRangeComp from './SliderRangeComp'

@@ -9,7 +9,7 @@ function valuetext(value) {
 }
 
 export default function SliderRangeComp() {
-  const [value, setValue] = useState([40, 100])
+  const [value, setValue] = useState([0, 500])
 
   const dispatch = useDispatch()
 

@@ -4,19 +4,19 @@ import ProductDetail from './components/pages/product-detail'
 import Discount from './views/discount'
 import text from './text.json'
 
-const routeItem = (title, path, element, child=null) => {
+const routeItem = (title, path, element) => {
     return {
         title,
         path,
-        element,
-        child
+        element
     }
 }
 
 const routes = {
     home: routeItem(text.greentecno_homepage, '/', <Home />),
     products: routeItem(text.greentecno_products, '/məhsullar', <Products />),
-    discounts: routeItem(text.greentecno_discounts, '/endirimlər', <Discount />, <ProductDetail />)
+    productDetail: routeItem(text.greentecno_products, '/məhsullar/:productId', <ProductDetail />),
+    discounts: routeItem(text.greentecno_discounts, '/endirimlər', <Discount />)
 }
 
 const routeArr = Object.values(routes)

@@ -50,7 +50,7 @@
             "id": 1
         },
         {
-            "name":  "Əvvəlcə ucuz",
+            "name": "Əvvəlcə ucuz",
             "key": "cheap",
             "id": 2
         },
@@ -62,13 +62,67 @@
     ],
     "products": [
         {
+            "id": 1,
             "name": "iPhone Wireless Headphone",
             "category_id": 5,
             "brand_id": 1,
             "price": 15.99,
             "discount": null,
-            "image": "/media/wireless.png",
-            "id": 1
+            "image": "/media/wireless.svg",
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E"
+                }
+            ],
+            "storages": [
+                {
+                    "id": 1,
+                    "storage": "32 GB"
+                },
+                {
+                    "id": 2,
+                    "storage": "64 GB"
+                },
+                {
+                    "id": 3,
+                    "storage": "128 GB"
+                }
+            ],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ]
         },
         {
             "name": "Samsung Wireless Headphone",
@@ -76,7 +130,7 @@
             "brand_id": 2,
             "price": 50.99,
             "discount": null,
-            "image": "/media/wireless.png",
+            "image": "/media/wireless.svg",
             "id": 2
         },
         {
@@ -85,7 +139,7 @@
             "brand_id": 3,
             "price": 42.99,
             "discount": null,
-            "image": "/media/airmax.png",
+            "image": "/media/airmax.svg",
             "id": 3
         },
         {
@@ -94,8 +148,8 @@
             "brand_id": 4,
             "price": 42.99,
             "discount": null,
-            "image": "/media/airmax.png",
-            "id": 3
+            "image": "/media/airmax.svg",
+            "id": 4
         },
         {
             "name": "Oppo Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -103,8 +157,8 @@
             "brand_id": 5,
             "price": 42.99,
             "discount": null,
-            "image": "/media/airmax.png",
-            "id": 3
+            "image": "/media/airmax.svg",
+            "id": 5
         },
         {
             "name": "iPhone 12 Pro Max 256GB Pacific Blue",
@@ -113,7 +167,7 @@
             "price": 400.99,
             "discount": 600.00,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 4
+            "id": 6
         },
         {
             "name": "Samsung S22 Ultra",
@@ -122,7 +176,7 @@
             "price": 300.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 5
+            "id": 7
         },
         {
             "name": "Xiaomi 12 lite",
@@ -131,7 +185,7 @@
             "price": 255.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 6
+            "id": 8
         },
         {
             "name": "Honor X9a",
@@ -140,7 +194,7 @@
             "price": 157.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 7
+            "id": 9
         },
         {
             "name": "Oppo Find",
@@ -149,7 +203,7 @@
             "price": 435.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 8
+            "id": 10
         },
         {
             "name": "iPhone Wireless Headphone",
@@ -157,8 +211,8 @@
             "brand_id": 1,
             "price": 75.99,
             "discount": null,
-            "image": "/media/wireless.png",
-            "id": 9
+            "image": "/media/wireless.svg",
+            "id": 11
         },
         {
             "name": "Samsung Wireless Headphone",
@@ -166,8 +220,8 @@
             "brand_id": 2,
             "price": 112.99,
             "discount": null,
-            "image": "/media/wireless.png",
-            "id": 10
+            "image": "/media/wireless.svg",
+            "id": 12
         },
         {
             "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -175,17 +229,17 @@
             "brand_id": 3,
             "price": 345.99,
             "discount": null,
-            "image": "/media/airmax.png",
-            "id": 11
+            "image": "/media/airmax.svg",
+            "id": 13
         },
         {
             "name": "iWatch",
             "category_id": 2,
             "brand_id": 1,
-            "price": 225.99,
+            "price": 375.99,
             "discount": 600.00,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 12
+            "image": "/media/smart_watch.svg",
+            "id": 14
         },
         {
             "name": "Samsung Smart Watch",
@@ -193,8 +247,8 @@
             "brand_id": 2,
             "price": 225.99,
             "discount": 600.00,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 12
+            "image": "/media/smart_watch.svg",
+            "id": 15
         },
         {
             "name": "Samsung Aksessuar",
@@ -203,7 +257,7 @@
             "price": 189.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 13
+            "id": 16
         },
         {
             "name": "Xiaomi Planset",
@@ -212,7 +266,7 @@
             "price": 270.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 14
+            "id": 17
         },
         {
             "name": "Honor Aksessuar",
@@ -221,7 +275,7 @@
             "price": 365.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 15
+            "id": 18
         },
         {
             "name": "Oppo Find",
@@ -230,7 +284,7 @@
             "price": 489.99,
             "discount": null,
             "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 16
+            "id": 19
         }
     ]
 }
