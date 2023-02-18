@@ -1,8 +1,9 @@
-import { useCallback, useState, useEffect } from 'react'
+import { useCallback, useState } from 'react'
 import data from './../../../data/data.json'
+import ProductDetailTable from '../product-detail-table'
 
 
-export default function CreaditModal({name, price, image}) {
+export default function CreaditModal({ name, price, image, changeShowedModal }) {
     const [monthVal, setMonthVal] = useState(6)
     let [productCount, setProductCount] = useState(1)
 
@@ -10,46 +11,23 @@ export default function CreaditModal({name, price, image}) {
         setMonthVal(e.target.value)
     }, [])
 
-    const incrementProductCount = useCallback(() => {
-        setProductCount(productCount++)
-    }, [])
-
-    const decrementProductCount = useCallback(() => {
-            setProductCount(productCount--)
-    }, [])
 
     const resultPay = (price * productCount).toFixed(2)
     const monthlyPay = (resultPay / monthVal).toFixed(2)
 
     return (
         <div className="credit-modal" id='credit-modal'>
+            <div className='flex justify-end'>
+                <div className='close-button' onClick={() => changeShowedModal()}>X</div>
+            </div>
             <h2>Hissə-hissə ödəniş</h2>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src={image} alt="green tecno" />
-                        </td>
-                        <td>
-                            <h4>{name}</h4>
-                        </td>
-                        <td>
-                            <button onClick={decrementProductCount}>-</button>
-                            <input type="number" value={productCount} />
-                            <button onClick={incrementProductCount}>+</button>
-                        </td>
-                        <td>
-                            <h4>{resultPay}</h4>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <ProductDetailTable setProductCount={setProductCount} productCount={productCount} name={name} image={image} resultPay={resultPay}/>
 
 
             <ul className='month'>
-                {data.credit_month?.map(({id, amount}) => {
+                {data.credit_month?.map(({ id, amount }) => {
                     return <li key={id} value={amount} className={amount === monthVal
-                     ? 'active' : null} onClick={getCreditMonthAmount}>
+                        ? 'active' : null} onClick={getCreditMonthAmount}>
                         {amount} ay
                     </li>
                 })}

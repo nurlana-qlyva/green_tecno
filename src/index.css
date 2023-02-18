@@ -493,8 +493,10 @@
     border: 1px solid var(--secondary-color);
 }
 
-.credit-modal {
-    background-color: var(--white-color);
+.credit-modal,
+.edit-name {
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 40px 90px;
     width: 60%;
     margin: auto;
@@ -517,14 +519,16 @@
 .credit-modal .month li {
     display: inline-block;
     margin: 0 10px;
-    background-color: var(--grey-70);
+    background-color: var(--white-color);
     color: var(--white-color);
     padding: 10px;
     border-radius: 50%;
+    color: var(--primary-color);
 }
 
 .credit-modal .month .active {
-    background-color: var(--primary-color);
+    background-color: var(--grey-70);
+    color: var(--white-color);
 }
 
 .credit-modal .result {
@@ -534,4 +538,40 @@
 .credit-modal .result li {
     display: inline-block;
     margin: 0 10px;
+}
+.credit-modal input,
+.bag-table table input {
+    appearance: none;
+    border: 1px solid grey;
+    outline: 0;
+    width: 30px;
+    padding: 2px 0;
+    color: var(--black-color);
+}
+.credit-modal input::placeholder,
+.bag-table table input::placeholder{
+    padding-left: 10px;
+}
+
+.credit-modal table button,
+.bag-table table button{
+    border: 1px solid grey;
+    padding: 2px 8px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.close-button {
+    text-align: center;
+    width: 30px;
+    border: 1px solid white;
+    padding: 4px;
+}
+
+.close-button:active {
+    border-color: red;
+    color: red;
+}
+.edit-name input::placeholder {
+    color: var(--black-color) !important;
 }

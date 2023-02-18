@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useState, useCallback } from 'react';
 import { setSelectedProducts } from '../../../features/cartProductSlicer'
 import CreaditModal from '../../core/credit-modal'
@@ -14,12 +14,13 @@ import CreaditModal from '../../core/credit-modal'
 export default function ProductDetail() {
     const { productId } = useParams()
     const [memoryVal, setMemoryVal] = useState(1)
-    const [colorVal, setColorVal] = useState('')
+    const [colorVal, setColorVal] = useState(1)
     const [isShow, setIsShow] = useState(false)
-
+    const selectedProductData = useSelector(state => state)
     const dispatch = useDispatch()
 
-    const getProductDetail = data.products.find(product => Number(productId) === product.id)
+    const getProductDetail = data.products?.find(product => Number(productId) === product.id)
+    const { id, name, image, price, speacilities } = getProductDetail
 
     const getProductMemoryValue = useCallback((e) => {
         setMemoryVal(e.target.value)
@@ -29,16 +30,27 @@ export default function ProductDetail() {
         setColorVal(e.target.value)
     })
 
-    const getFilteredDataForMemory = getProductDetail.speacilities?.find(product => product?.storage_id === Number(memoryVal))
+    const getFilteredDataForMemory = speacilities?.find(product => product?.storage_id === Number(memoryVal))
 
-    const {name, image, price} = getProductDetail
 
-    const sendProductsIntoBag = () => {
-        dispatch(setSelectedProducts(image, name, null, price, colorVal, memoryVal))
-    }
+    const sendProductsIntoBag = useCallback(() => {
+        if (selectedProductData.cart_product?.length === 0) {
+            dispatch(setSelectedProducts(id, image, name, null, price, colorVal, memoryVal))
+            alert('this product is added')
+        } else if (selectedProductData.cart_product?.length > 0) {
+            selectedProductData.cart_product?.find(item => {
+                if (item.id === Number(productId)) {
+                    alert('this product has been added') 
+                    return item
+                }else {
+                    dispatch(setSelectedProducts(id, image, name, null, price, colorVal, memoryVal))
+                    alert('this product is added')
+                }
+            })
+        }
+    })
 
     const setIsShowModal = () => {
-        // dispatch(setSelectedProducts(image, name, null, price, colorVal, memoryVal))
         setIsShow(!isShow)
     }
 
@@ -82,7 +94,7 @@ export default function ProductDetail() {
                                 <div>
                                     {getProductDetail.colors?.map(({ id, color }) => {
                                         return (
-                                            <input key={id} type="radio" name="color" style={{ background: color }} value={id} onChange={getProductColorValue}/>
+                                            <input key={id} type="radio" name="color" style={{ background: color }} value={id} onChange={getProductColorValue} />
                                         )
                                     })}
                                 </div>
@@ -122,7 +134,7 @@ export default function ProductDetail() {
                     </div>
                 </div>
 
-                {isShow ? <CreaditModal image={image} name={name} price={price} /> : null}
+                {isShow ? <CreaditModal image={image} name={name} price={price} changeShowedModal={setIsShowModal} /> : null}
             </div>
         </section>
     )
