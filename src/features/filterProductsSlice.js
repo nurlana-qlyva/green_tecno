@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-const filterProductSlice = createSlice({
+const filterProductsSlice = createSlice({
     name: 'product',
     initialState: {
         selectedCategory: '',
@@ -24,6 +24,6 @@ const filterProductSlice = createSlice({
     }
 })
 
-export const {setSelectedCategory, setSelectedBrand, setSelectedSortingOption, setSelectedPrice} = filterProductSlice.actions
+export const {setSelectedCategory, setSelectedBrand, setSelectedSortingOption, setSelectedPrice} = filterProductsSlice.actions
 
-export default filterProductSlice.reducer
+export default filterProductsSlice.reducer

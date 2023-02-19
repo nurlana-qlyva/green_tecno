@@ -2,11 +2,11 @@ import { Scrollbar, Autoplay, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination';
-import data from './data.json'
+import data from './../../../../data/hero.json'
 
-export default function Hero() {
+const Hero = () => {
   return (
-    <section className='green-tecno-hero'>
+    <section className='gt-hero'>
         <Swiper
           modules={[Pagination, Scrollbar, Autoplay]}
           slidesPerView={1}
@@ -26,3 +26,5 @@ export default function Hero() {
     </section>
   )
 }
+
+export default Hero

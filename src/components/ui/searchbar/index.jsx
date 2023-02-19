@@ -1,14 +1,13 @@
 import { useState, useRef, useCallback } from 'react'
-import { SearchIcon } from './../../../icons'
-import ProductsModal from './ProductsModal'
+import { SearchIcon } from '../../../icons'
+import Popup from './Popup'
 
-export default function SearchForm() {
+const SearchBar = () => {
     const [value, setValue] = useState('')
     const [showed, setShowed] = useState(false)
     const searchValue = useRef()
 
     const searchItem = useCallback(() => {
-        console.log('yes')
         setValue(searchValue.current.value)
         setShowed(true)
     }, [])
@@ -22,7 +21,9 @@ export default function SearchForm() {
                 </button>
             </form>
 
-            {showed ? <ProductsModal value={value}  show={showed} onClickOutside={() => {setShowed(false)}}/> : null}
+            {showed ? <Popup value={value}  show={showed} onClickOutside={() => {setShowed(false)}}/> : null}
         </>
     )
 }
+
+export default SearchBar

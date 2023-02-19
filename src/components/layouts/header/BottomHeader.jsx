@@ -1,19 +1,19 @@
 import { HamburgerIcon, Phoneİcon } from './../../../icons'
-import SearchForm from '../../core/search-form'
+import SearchBar from './../../ui/searchbar'
 
-export default function BottomHeader() {
+const BottomHeader = () => {
     return (
-        <div className='bottom-header'>
+        <div className='gt-bottom-header'>
             <div className="container mx-auto px-4">
                 <div className="flex justify-between items-center">
-                    <div className="categories inline-flex items-center gap-3">
+                    <div className="gt-categories-menu inline-flex items-center gap-3">
                         <span><HamburgerIcon/></span>
                         <button>Kateqoriyaları göstər</button>
                     </div>
-                    <div className="search-input">
-                        <SearchForm />
+                    <div className="gt-search-product">
+                        <SearchBar />
                     </div>
-                    <div className="contact">
+                    <div className="gt-contact">
                         <button>
                             <span><Phoneİcon /></span>
                             <span>Əlaqə</span>
@@ -24,3 +24,5 @@ export default function BottomHeader() {
         </div>
     )
 }
+
+export default BottomHeader

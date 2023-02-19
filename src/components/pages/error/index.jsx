@@ -1,7 +1,7 @@
-import Header from "../../layouts/header"
+import Header from './../../layouts/header'
 import image from './../../../assets/media/notfound.svg'
 
-export default function Errorpage() {
+const ErrorPage = () => {
     return (
         <>
             <Header />
@@ -12,3 +12,5 @@ export default function Errorpage() {
         </>
     )
 }
+
+export default ErrorPage

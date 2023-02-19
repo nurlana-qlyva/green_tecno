@@ -86,6 +86,46 @@
             "amount": 24
         }
     ],
+    "colors": [
+        {
+            "id": 1,
+            "color": "#C4C4C4",
+            "color_name": "Grey"
+        },
+        {
+            "id": 2,
+            "color": "#2F506C",
+            "color_name": "Pacific Blue"
+        },
+        {
+            "id": 3,
+            "color": "#312F32",
+            "color_name": "Black"
+        },
+        {
+            "id": 4,
+            "color": "#E6564E",
+            "color_name": "Red"
+        }
+    ],
+    "storages": [
+        {
+            "id": 1,
+            "storage": "32 GB"
+        },
+        {
+            "id": 2,
+            "storage": "64 GB"
+        },
+        {
+            "id": 3,
+            "storage": "128 GB"
+        },
+        {
+            "id": 4,
+            "storage": "256 GB"
+        }
+    ],
     "products": [
         {
             "name": "iPhone 12 Pro Max 256GB Pacific Blue",
@@ -98,19 +138,23 @@
             "colors": [
                 {
                     "id": 1,
-                    "color": "#C4C4C4"
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
                 },
                 {
                     "id": 2,
-                    "color": "#2F506C"
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
                 },
                 {
                     "id": 3,
-                    "color": "#312F32"
+                    "color": "#312F32",
+                    "color_name": "Black"
                 },
                 {
                     "id": 4,
-                    "color": "#E6564E"
+                    "color": "#E6564E",
+                    "color_name": "Red"
                 }
             ],
             "storages": [

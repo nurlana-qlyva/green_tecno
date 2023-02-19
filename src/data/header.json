@@ -8,11 +8,11 @@
         },
         {
             "name": "Məhsullar",
-            "path": "/məhsullar"
+            "path": "/products"
         },
         {
             "name": "Endirimlər",
-            "path": "/endirimlər"
+            "path": "/discounts"
         }
     ]
 }

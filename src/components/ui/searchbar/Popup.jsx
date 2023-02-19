@@ -1,8 +1,8 @@
-import data from './../../../data/data.json'
+import data from './../../../data/products.json'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
-export default function ProductsModal({ value, onClickOutside, show }) {
+const Popup = ({ value, onClickOutside, show }) => {
 
     useEffect(() => {
         const handleClickOutside = (e) => {
@@ -23,7 +23,7 @@ export default function ProductsModal({ value, onClickOutside, show }) {
         return null;
     } else {
         return (
-            <div className="search-result" id='search-modal'>
+            <div className="gt-search-result" id='search-popup'>
                 <ul>
                     {(data.products.filter(product => {
                         if (value === '') {
@@ -33,7 +33,7 @@ export default function ProductsModal({ value, onClickOutside, show }) {
                         }
                     })).map(product => {
                         return <li key={product.id}>
-                            <Link className='flex items-center' to={`/məhsullar/${product.id}`}>
+                            <Link className='flex items-center' to={`/products/${product.id}`}>
                                 <div>
                                     <img src={product.image} alt="greentecno" />
                                 </div>
@@ -48,7 +48,6 @@ export default function ProductsModal({ value, onClickOutside, show }) {
             </div>
         )
     }
-
-
-
 }
+
+export default  Popup

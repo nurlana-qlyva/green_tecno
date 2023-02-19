@@ -1,12 +1,9 @@
-import data from './../../../data/data.json'
-import FilterPrice from './FilterPrice'
+import data from './../../../data/products.json'
+import SortingProducts from './SortingProduct'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { useParams } from 'react-router-dom'
 
-export default function Products() {
-    const {productId} = useParams()
-
+const Products = () => {
     const { selectedCategory, selectedBrand, selectedSortingOption, selectedPrice } = useSelector(state => state.product)
 
     const getFilteredData = () => {
@@ -36,11 +33,11 @@ export default function Products() {
     }
 
     return (
-        <div className='right-side'>
-            <FilterPrice count={getSortedData().length} />
+        <div className='all-products'>
+            <SortingProducts count={getSortedData().length} />
             <div className='grid grid-cols-3 product'>
                 {getSortedData().map(product => {
-                    return <Link key={product.id} to={`/məhsullar/${product.id}`}>
+                    return <Link key={product.id} to={`/products/${product.id}`}>
                         <div className="card" key={product.id}>
                             <div className="card-img">
                                 <img src={product.image} alt="" />
@@ -59,3 +56,5 @@ export default function Products() {
         </div>
     )
 }
+
+export default Products

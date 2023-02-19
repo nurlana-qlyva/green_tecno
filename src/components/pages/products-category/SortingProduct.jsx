@@ -1,16 +1,16 @@
+import data from './../../../data/products.json'
 import { useDispatch } from 'react-redux'
-import { setSelectedSortingOption } from '../../../features/filter'
-import data from './../../../data/data.json'
+import { setSelectedSortingOption } from './../../../features/filterProductsSlice'
 
-export default function FilterPrice({count}) {
+const SortingProducts = ({count}) =>  {
     const dispatch = useDispatch()
 
     return (
-        <div className="flex items-center justify-between filter-price">
+        <div className="flex items-center justify-between sorting-for">
             <div>
                 {count} məhsul tapıldı
             </div>
-            <div className='filter-select'>
+            <div className='sorting-choice'>
                 <form action="">
                     <select name="price-start" id="" onChange={((e) => dispatch(setSelectedSortingOption(e.target.value)))}>
                         {data.options.map(item => {
@@ -22,3 +22,5 @@ export default function FilterPrice({count}) {
         </div>
     )
 }
+
+export default SortingProducts

@@ -8,17 +8,17 @@ const cartProductSlice = createSlice({
             reducer(state, { payload }) {
                 state.unshift(payload)
             },
-            prepare(id, product_image, product_name, product_brand, product_price, product_color, product_memory) {
+            prepare(id, product_image, product_name, product_price, product_color, product_memory, product_brand) {
                 return {
                     payload: {
                         id,
                         product_image,
                         product_name,
-                        product_brand,
                         product_price,
                         product_color,
                         product_memory,
-                        count: 1
+                        count: 1,
+                        product_brand
                     }
                 }
             }
@@ -29,7 +29,7 @@ const cartProductSlice = createSlice({
         incrementCount: (state, { payload }) => {
             state = state.filter(item => item.id === payload ? {
                 ...item,
-                count: item.count += 1
+                count: item.count < 10 ? item.count += 1 : 10
             } : {
                 item
             }
@@ -37,26 +37,25 @@ const cartProductSlice = createSlice({
         },
         decrementCount: (state, { payload }) => {
             state = state.filter(item => item.id === payload ? {
-                    ...item,
-                    count: item.count -= 1
-                } : {
-                    item
-                }
+                ...item,
+                count: item.count > 1 ? item.count -= 1 : 1
+            } : {
+                item
+            }
             )
         },
         editSelectedProduct: (state, { payload }) => {
-            state = state.filter(item => item.id === payload ? {
-                    ...item,
-                    product_name: payload
-                }
-                 : {
-                    item
-                }
+            return state = state.map(item => item.id === payload.id ? {
+                ...item,
+                    product_color: payload.color,
+                    product_memory: payload.memo
+            }
+                : item
             )
         }
     }
 })
 
-export const { setSelectedProducts, deleteSelectedProduct, incrementCount, decrementCount, editSelectedProduct } = cartProductSlice.actions
+export const { setSelectedProducts, deleteSelectedProduct, incrementCount, decrementCount,  editSelectedProduct} = cartProductSlice.actions
 
 export default cartProductSlice.reducer
