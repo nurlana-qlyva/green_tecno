@@ -37,7 +37,13 @@ const ProductDetail = () => {
     }, [])
 
     // filtering for color or memory
-    const getFilteredProductDataForMemo = speacilities?.find(product => product?.storage_id === Number(productMemo))
+    const getFilteredProductDataForMemo = speacilities?.find(product => {
+        if (product.storage_id) {
+           return product?.storage_id !== Number(productMemo) ? product.product_speacilities : console.log('false')
+        }else {
+            return product.product_speacilities
+        }
+    })
 
     // data in cart
     const selectedProductData = useSelector(state => state)
@@ -105,7 +111,7 @@ const ProductDetail = () => {
                                 <p>{brand_id}</p>
                             </div>
                             <div className="product-colors">
-                                <h4>Rənglər</h4>
+                                {colors.length !== 0 ? <h4>Rənglər</h4> : null}
                                 {colors?.map(({ id, color, color_name }) => {
                                     return (
                                         <>
@@ -115,7 +121,7 @@ const ProductDetail = () => {
                                 })}
                             </div>
                             <div className="product-storage">
-                                <h4>Yaddaş</h4>
+                                {storages.length !== 0 ? <h4>Yaddaş</h4> : null}
                                 <div>
                                     {storages?.map(({ id, storage }) => {
                                         return (

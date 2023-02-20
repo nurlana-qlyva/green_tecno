@@ -128,7 +128,7 @@
     ],
     "products": [
         {
-            "name": "iPhone 12 Pro Max 256GB Pacific Blue",
+            "name": "iPhone 12 Pro Max",
             "category_id": 1,
             "brand_id": 1,
             "price": 400.99,
@@ -324,10 +324,77 @@
             "discount": null,
             "image": "/media/wireless.svg",
             "id": 2,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32",
+                    "color_name": "Black"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E",
+                    "color_name": "Red"
+                }
+            ],
+            "storages": [],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "product_speacilities": [
+                        {
+                            "key": "Rabitə",
+                            "value": "Simsiz"
+                        },
+                        {
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
+                        },
+                        {
+                            "key": "Maksimum çıxış",
+                            "value": "30"
+                        },
+                        {
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
+                        },
+                        {
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -337,10 +404,77 @@
             "discount": null,
             "image": "/media/airmax.svg",
             "id": 3,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32",
+                    "color_name": "Black"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E",
+                    "color_name": "Red"
+                }
+            ],
+            "storages": [],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "product_speacilities": [
+                        {
+                            "key": "Rabitə",
+                            "value": "Simsiz"
+                        },
+                        {
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
+                        },
+                        {
+                            "key": "Maksimum çıxış",
+                            "value": "30"
+                        },
+                        {
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
+                        },
+                        {
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Honor Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -350,10 +484,77 @@
             "discount": null,
             "image": "/media/airmax.svg",
             "id": 4,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32",
+                    "color_name": "Black"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E",
+                    "color_name": "Red"
+                }
+            ],
+            "storages": [],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "product_speacilities": [
+                        {
+                            "key": "Rabitə",
+                            "value": "Simsiz"
+                        },
+                        {
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
+                        },
+                        {
+                            "key": "Maksimum çıxış",
+                            "value": "30"
+                        },
+                        {
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
+                        },
+                        {
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Oppo Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -363,71 +564,45 @@
             "discount": null,
             "image": "/media/airmax.svg",
             "id": 5,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
-        },
-        {
-            "name": "iPhone 12 Pro Max 128GB Pacific Blue",
-            "category_id": 1,
-            "brand_id": 1,
-            "price": 350.99,
-            "discount": 600.00,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
-            "id": 6,
             "colors": [
                 {
                     "id": 1,
-                    "color": "#C4C4C4"
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
                 },
                 {
                     "id": 2,
-                    "color": "#2F506C"
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
                 },
                 {
                     "id": 3,
-                    "color": "#312F32"
+                    "color": "#312F32",
+                    "color_name": "Black"
                 },
                 {
                     "id": 4,
-                    "color": "#E6564E"
+                    "color": "#E6564E",
+                    "color_name": "Red"
                 }
             ],
-            "storages": [
-                {
-                    "id": 1,
-                    "storage": "32 GB"
-                },
-                {
-                    "id": 2,
-                    "storage": "64 GB"
-                },
-                {
-                    "id": 3,
-                    "storage": "128 GB"
-                },
-                {
-                    "id": 4,
-                    "storage": "256 GB"
-                }
-            ],
+            "storages": [],
             "image_slider": [
                 {
                     "id": 1,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/wireless.svg"
                 },
                 {
                     "id": 2,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/wireless.svg"
                 },
                 {
                     "id": 3,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/wireless.svg"
                 },
                 {
                     "id": 4,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/wireless.svg"
                 },
                 {
                     "id": 5,
@@ -436,118 +611,26 @@
             ],
             "speacilities": [
                 {
-                    "storage_id": 1,
                     "product_speacilities": [
                         {
-                            "key": "Ekran ölçüsü",
-                            "value": "6.5"
+                            "key": "Rabitə",
+                            "value": "Simsiz"
                         },
                         {
-                            "key": "Əməliyyat sistemi",
-                            "value": "IOS 3"
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
                         },
                         {
-                            "key": "Operativ yaddaş (Ram)",
-                            "value": "8 GB"
+                            "key": "Maksimum çıxış",
+                            "value": "30"
                         },
                         {
-                            "key": "Əsas Kamera (MP)",
-                            "value": "64 + 12 + 12 +5"
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
                         },
                         {
-                            "key": "Akkumulyatorun həcmi (mAh)",
-                            "value": "4500"
-                        },
-                        {
-                            "key": "Daxili yaddaş",
-                            "value": "32 GB"
-                        }
-                    ]
-                },
-                {
-                    "storage_id": 2,
-                    "product_speacilities": [
-                        {
-                            "key": "Ekran ölçüsü",
-                            "value": "6.5"
-                        },
-                        {
-                            "key": "Əməliyyat sistemi",
-                            "value": "IOS 3"
-                        },
-                        {
-                            "key": "Operativ yaddaş (Ram)",
-                            "value": "8 GB"
-                        },
-                        {
-                            "key": "Əsas Kamera (MP)",
-                            "value": "64 + 12 + 12 +5"
-                        },
-                        {
-                            "key": "Akkumulyatorun həcmi (mAh)",
-                            "value": "4500"
-                        },
-                        {
-                            "key": "Daxili yaddaş",
-                            "value": "64 GB"
-                        }
-                    ]
-                },
-                {
-                    "storage_id": 4,
-                    "product_speacilities": [
-                        {
-                            "key": "Ekran ölçüsü",
-                            "value": "6.5"
-                        },
-                        {
-                            "key": "Əməliyyat sistemi",
-                            "value": "IOS 3"
-                        },
-                        {
-                            "key": "Operativ yaddaş (Ram)",
-                            "value": "8 GB"
-                        },
-                        {
-                            "key": "Əsas Kamera (MP)",
-                            "value": "64 + 12 + 12 +5"
-                        },
-                        {
-                            "key": "Akkumulyatorun həcmi (mAh)",
-                            "value": "4500"
-                        },
-                        {
-                            "key": "Daxili yaddaş",
-                            "value": "256 GB"
-                        }
-                    ]
-                },
-                {
-                    "storage_id": 3,
-                    "product_speacilities": [
-                        {
-                            "key": "Ekran ölçüsü",
-                            "value": "6.5"
-                        },
-                        {
-                            "key": "Əməliyyat sistemi",
-                            "value": "IOS 3"
-                        },
-                        {
-                            "key": "Operativ yaddaş (Ram)",
-                            "value": "8 GB"
-                        },
-                        {
-                            "key": "Əsas Kamera (MP)",
-                            "value": "64 + 12 + 12 +5"
-                        },
-                        {
-                            "key": "Akkumulyatorun həcmi (mAh)",
-                            "value": "4500"
-                        },
-                        {
-                            "key": "Daxili yaddaş",
-                            "value": "128 GB"
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
                         }
                     ]
                 }
@@ -559,24 +642,28 @@
             "brand_id": 2,
             "price": 300.99,
             "discount": null,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "image": "/media/samsungs22.jpg",
             "id": 7,
             "colors": [
                 {
                     "id": 1,
-                    "color": "#C4C4C4"
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
                 },
                 {
                     "id": 2,
-                    "color": "#2F506C"
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
                 },
                 {
                     "id": 3,
-                    "color": "#312F32"
+                    "color": "#312F32",
+                    "color_name": "Black"
                 },
                 {
                     "id": 4,
-                    "color": "#E6564E"
+                    "color": "#E6564E",
+                    "color_name": "Red"
                 }
             ],
             "storages": [
@@ -600,23 +687,23 @@
             "image_slider": [
                 {
                     "id": 1,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/samsungs22.jpg"
                 },
                 {
                     "id": 2,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/samsungs22.jpg"
                 },
                 {
                     "id": 3,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/samsungs22.jpg"
                 },
                 {
                     "id": 4,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/samsungs22.jpg"
                 },
                 {
                     "id": 5,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/samsungs22.jpg"
                 }
             ],
             "speacilities": [
@@ -744,24 +831,28 @@
             "brand_id": 3,
             "price": 255.99,
             "discount": null,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "image": "/media/xiaomi12lite.png",
             "id": 8,
             "colors": [
                 {
                     "id": 1,
-                    "color": "#C4C4C4"
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
                 },
                 {
                     "id": 2,
-                    "color": "#2F506C"
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
                 },
                 {
                     "id": 3,
-                    "color": "#312F32"
+                    "color": "#312F32",
+                    "color_name": "Black"
                 },
                 {
                     "id": 4,
-                    "color": "#E6564E"
+                    "color": "#E6564E",
+                    "color_name": "Red"
                 }
             ],
             "storages": [
@@ -785,23 +876,23 @@
             "image_slider": [
                 {
                     "id": 1,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/xiaomi12lite.png"
                 },
                 {
                     "id": 2,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/xiaomi12lite.png"
                 },
                 {
                     "id": 3,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/xiaomi12lite.png"
                 },
                 {
                     "id": 4,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/xiaomi12lite.png"
                 },
                 {
                     "id": 5,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/xiaomi12lite.png"
                 }
             ],
             "speacilities": [
@@ -929,24 +1020,28 @@
             "brand_id": 4,
             "price": 157.99,
             "discount": null,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "image": "/media/honorx9a.jpeg",
             "id": 9,
             "colors": [
                 {
                     "id": 1,
-                    "color": "#C4C4C4"
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
                 },
                 {
                     "id": 2,
-                    "color": "#2F506C"
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
                 },
                 {
                     "id": 3,
-                    "color": "#312F32"
+                    "color": "#312F32",
+                    "color_name": "Black"
                 },
                 {
                     "id": 4,
-                    "color": "#E6564E"
+                    "color": "#E6564E",
+                    "color_name": "Red"
                 }
             ],
             "storages": [
@@ -970,23 +1065,23 @@
             "image_slider": [
                 {
                     "id": 1,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/honorx9a.jpeg"
                 },
                 {
                     "id": 2,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/honorx9a.jpeg"
                 },
                 {
                     "id": 3,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/honorx9a.jpeg"
                 },
                 {
                     "id": 4,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/honorx9a.jpeg"
                 },
                 {
                     "id": 5,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/honorx9a.jpeg"
                 }
             ],
             "speacilities": [
@@ -1109,29 +1204,33 @@
             ]
         },
         {
-            "name": "Oppo Find",
+            "name": "Oppo Find N2",
             "category_id": 1,
             "brand_id": 5,
             "price": 435.99,
             "discount": null,
-            "image": "/media/iphone-12-pro-max-blue-hero.png",
+            "image": "/media/oppo-find-n2-5g.jpg",
             "id": 10,
             "colors": [
                 {
                     "id": 1,
-                    "color": "#C4C4C4"
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
                 },
                 {
                     "id": 2,
-                    "color": "#2F506C"
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
                 },
                 {
                     "id": 3,
-                    "color": "#312F32"
+                    "color": "#312F32",
+                    "color_name": "Black"
                 },
                 {
                     "id": 4,
-                    "color": "#E6564E"
+                    "color": "#E6564E",
+                    "color_name": "Red"
                 }
             ],
             "storages": [
@@ -1155,23 +1254,23 @@
             "image_slider": [
                 {
                     "id": 1,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/oppo-find-n2-5g.jpg"
                 },
                 {
                     "id": 2,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/oppo-find-n2-5g.jpg"
                 },
                 {
                     "id": 3,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/oppo-find-n2-5g.jpg"
                 },
                 {
                     "id": 4,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/oppo-find-n2-5g.jpg"
                 },
                 {
                     "id": 5,
-                    "image": "/media/iphone-12-pro-max-blue-hero.png"
+                    "image": "/media/oppo-find-n2-5g.jpg"
                 }
             ],
             "speacilities": [
@@ -1301,10 +1400,77 @@
             "discount": null,
             "image": "/media/wireless.svg",
             "id": 11,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32",
+                    "color_name": "Black"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E",
+                    "color_name": "Red"
+                }
+            ],
+            "storages": [],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "product_speacilities": [
+                        {
+                            "key": "Rabitə",
+                            "value": "Simsiz"
+                        },
+                        {
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
+                        },
+                        {
+                            "key": "Maksimum çıxış",
+                            "value": "30"
+                        },
+                        {
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
+                        },
+                        {
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Samsung Wireless Headphone",
@@ -1314,10 +1480,77 @@
             "discount": null,
             "image": "/media/wireless.svg",
             "id": 12,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32",
+                    "color_name": "Black"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E",
+                    "color_name": "Red"
+                }
+            ],
+            "storages": [],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "product_speacilities": [
+                        {
+                            "key": "Rabitə",
+                            "value": "Simsiz"
+                        },
+                        {
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
+                        },
+                        {
+                            "key": "Maksimum çıxış",
+                            "value": "30"
+                        },
+                        {
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
+                        },
+                        {
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "Xiaomi Headphone R1342JBL LIVE 650BTNC Wireless",
@@ -1327,10 +1560,77 @@
             "discount": null,
             "image": "/media/airmax.svg",
             "id": 13,
-            "colors": [],
-            "staorages": [],
-            "image_slider": [],
-            "speacilities": []
+            "colors": [
+                {
+                    "id": 1,
+                    "color": "#C4C4C4",
+                    "color_name": "Grey"
+                },
+                {
+                    "id": 2,
+                    "color": "#2F506C",
+                    "color_name": "Pacific Blue"
+                },
+                {
+                    "id": 3,
+                    "color": "#312F32",
+                    "color_name": "Black"
+                },
+                {
+                    "id": 4,
+                    "color": "#E6564E",
+                    "color_name": "Red"
+                }
+            ],
+            "storages": [],
+            "image_slider": [
+                {
+                    "id": 1,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 2,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 3,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 4,
+                    "image": "/media/wireless.svg"
+                },
+                {
+                    "id": 5,
+                    "image": "/media/wireless.svg"
+                }
+            ],
+            "speacilities": [
+                {
+                    "product_speacilities": [
+                        {
+                            "key": "Rabitə",
+                            "value": "Simsiz"
+                        },
+                        {
+                            "key": "Simsiz Növ",
+                            "value": "bluetooth"
+                        },
+                        {
+                            "key": "Maksimum çıxış",
+                            "value": "30"
+                        },
+                        {
+                            "key": "Empedans diapazonu",
+                            "value": "32 Ω-ə qədər"
+                        },
+                        {
+                            "key": "Tezlik Cavab Aralığı",
+                            "value": "50 - 8000"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "name": "iWatch",
