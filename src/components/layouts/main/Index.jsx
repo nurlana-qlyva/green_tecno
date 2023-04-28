@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router'
-import Header from './../header'
+import Header from '../header'
 
 const Main = () => {
   return (
